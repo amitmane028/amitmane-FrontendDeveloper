@@ -1,13 +1,11 @@
 import React from "react";
-import {Button} from "react-bootstrap";
+import Example from "./Example";
+
 function App() {
   return (
     <div>
-      <h1>hello app</h1>
-
-      <button>click</button>
-   <Button>click me</Button>
-    </div>
+   <Example />
+        </div>
   );
 }
 
